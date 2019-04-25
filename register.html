@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="es">
+	<head>
+    	<meta charset="utf-8">
+		<link href="css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+		<script src="js/bootstrap.min.js"></script>
+		<script src="js/jquery-3.3.1.slim.min.js"></script>
+		<link rel="stylesheet" type="text/css" href="ecss/register.css">
+		<title> Register </title>
+	</head>
+<!------ Include the above in your HEAD tag ---------->
+
+<body>
+    <div id="login">
+        <h3 class="text-center text-white pt-5">Register a Sistema de Inventario</h3>
+        <center>
+        <a href="main.html"> <img src="imagenes/icono-inventarios.png" width="150" /></a>
+        </center>
+        <div class="container">
+            <div id="login-row" class="row justify-content-center align-items-center">
+                <div id="login-column" class="col-md-6">
+                    <div id="login-box" class="col-md-12">
+                        <form id="login-form" class="form" action="" method="post">
+                            <h3 class="text-center text-info">Registro</h3>
+                            <div class="row">
+                                <div class="col-xs-6 col-md-6">
+                                    <label for="name" class="text-info">Nombre:</label><br>
+                                    <input type="text" name="name" id="name" class="form-control">
+                                </div>
+                                <div class="col-xs-6 col-md-6">
+                                    <label for="lastname" class="text-info">Apellidos:</label><br>
+                                    <input type="text" name="lastname" id="lastname" class="form-control">    
+                                </div>                           
+                             </div>
+                            <div class="row">
+                                <div class="col-xs-6 col-md-4"> <!-- xs ancho md largo-->
+                                    
+                                    <label for="rut" class="text-info">Rut:</label><br>
+                                    <input type="text" name="rut"  placeholder="17439152-3" id="rut" class="form-control">
+                                </div> 
+                                <div class="col-xs-6 col-md-5"> <!-- xs ancho md largo-->
+                                    
+                                    <label for="phone" class="text-info">Celular:</label><br>
+                                    <input type="text" name="phone"  placeholder="+56 9 12345678" id="phone" class="form-control">
+                                </div>                       
+                            </div>
+                            <div class="row">
+                                <div class="col-xs-6 col-md-8">
+                                    
+                                    <label for="email" class="text-info">Correo:</label><br>
+                                    <input type="email" name="email" id="email" class="form-control"> 
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-xs-6 col-md-8">
+                                    
+                                    <label for="username" class="text-info">Nombre usuario:</label>
+                                    <br>
+                                    <input type="text" name="username" id="username" class="form-control"> 
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-xs-6 col-md-8">
+                                    
+                                    <label for="password" class="text-info">Contraseña:</label><br>
+                                    <input type="password" name="password" id="password" class="form-control">
+                                </div>
+                            </div>
+                            <div class="form-group"><center>
+                                <br>
+                                <a href="login.html"><input type="buttom" name="submit" class="btn btn-info btn-md" value=" Registrar" style = 'width:300px'></a>
+                                </center>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

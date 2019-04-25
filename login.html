@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="es">
+	<head>
+    	<meta charset="utf-8">
+		<link href="css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+		<script src="js/bootstrap.min.js"></script>
+		<script src="js/jquery-3.3.1.slim.min.js"></script>
+		<link rel="stylesheet" type="text/css" href="ecss/login.css">
+		<title> Log In </title>
+	</head>
+<!------ Include the above in your HEAD tag ---------->
+
+<body>
+    <div id="login">
+        <h3 class="text-center text-white pt-5">Log in Sistema de Inventario</h3>
+        <center>
+        <a href="main.html"> <img src="imagenes/icono-inventarios.png" width="150" /></a>
+        </center>
+        
+        <div class="container">
+            <div id="login-row" class="row justify-content-center align-items-center">
+                <div id="login-column" class="col-md-6">
+                    <div id="login-box" class="col-md-12">
+                        <form id="login-form" class="form" action="" method="post">
+                            <h3 class="text-center text-info">Log in</h3>
+                            <div class="form-group">
+                                <label for="username" class="text-info">Usuario:</label><br>
+                                <input type="text" name="username" id="username" class="form-control">
+                            </div>
+                            <div class="form-group">
+                                <label for="password" class="text-info">Contraseña:</label><br> <p>Olvidaste tu <a href="#">Contraseña?</a></p>
+                                <input type="password" name="password" id="password" class="form-control">
+                            </div>
+                            <div class="form-group">
+                                <label for="remember-me" class="text-info"><span>Recordarme</span> <span><input id="remember-me" name="remember-me" type="checkbox"></span></label><br>
+                                
+                                <a href="home.html"><input type="buttom" name="submit" class="btn btn-info btn-md" value="Log in" style = 'width:200px'></a>
+                                
+                            </div>
+                            <div id="register-link" class="text-right">
+                                <p> No tienes cuenta? <a href="register.html">Registrate Aqui</a></p>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+    </div>
+</body>
+
+			<!--<div class ="footer">
+			  <p>Sistemas de inventarios</p>
+			</div>-->
+</html>
